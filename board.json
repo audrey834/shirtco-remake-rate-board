@@ -1,0 +1,408 @@
+{
+  "updated_at_ct": "2026-09-11 4:49 PM CT",
+  "rule": "Remake = nickname REPRINT/RESTITCH/REDO or #reprint/#restitch/#redo only. EXISTING #### alone \u2260 remake. MISPRINTS originals \u2260 remake.",
+  "metric": "piece_pct",
+  "metric_note": "piece % = garments_reprint / garments_total; ticket % secondary",
+  "current": {
+    "key": "2026-09",
+    "label": "September 2026",
+    "status": "mtd",
+    "garments_reprint": 384,
+    "garments_total": 41324,
+    "garment_ratio": 0.0093,
+    "piece_pct": 0.93,
+    "tickets_reprint": 34,
+    "tickets_total": 544,
+    "ticket_ratio": 0.0625,
+    "ticket_pct": 6.25,
+    "by_dept": {
+      "SP": {
+        "garments_reprint": 278,
+        "garments_total": 28924,
+        "garment_ratio": 0.0096,
+        "piece_pct": 0.96,
+        "tickets_reprint": 13,
+        "tickets_total": 135,
+        "ticket_ratio": 0.0963,
+        "ticket_pct": 9.63
+      },
+      "DTF": {
+        "garments_reprint": 106,
+        "garments_total": 6743,
+        "garment_ratio": 0.0157,
+        "piece_pct": 1.57,
+        "tickets_reprint": 20,
+        "tickets_total": 261,
+        "ticket_ratio": 0.0766,
+        "ticket_pct": 7.66
+      },
+      "EMB": {
+        "garments_reprint": 41,
+        "garments_total": 6649,
+        "garment_ratio": 0.0062,
+        "piece_pct": 0.62,
+        "tickets_reprint": 5,
+        "tickets_total": 170,
+        "ticket_ratio": 0.0294,
+        "ticket_pct": 2.94
+      }
+    }
+  },
+  "previous": {
+    "key": "2026-08",
+    "label": "August 2026",
+    "status": "closed",
+    "garments_reprint": 886,
+    "garments_total": 72576,
+    "garment_ratio": 0.0122,
+    "piece_pct": 1.22,
+    "tickets_reprint": 89,
+    "tickets_total": 949,
+    "ticket_ratio": 0.0938,
+    "ticket_pct": 9.38,
+    "by_dept": {
+      "SP": {
+        "garments_reprint": 604,
+        "garments_total": 52385,
+        "garment_ratio": 0.0115,
+        "piece_pct": 1.15,
+        "tickets_reprint": 43,
+        "tickets_total": 281,
+        "ticket_ratio": 0.153,
+        "ticket_pct": 15.3
+      },
+      "DTF": {
+        "garments_reprint": 222,
+        "garments_total": 9745,
+        "garment_ratio": 0.0228,
+        "piece_pct": 2.28,
+        "tickets_reprint": 34,
+        "tickets_total": 349,
+        "ticket_ratio": 0.0974,
+        "ticket_pct": 9.74
+      },
+      "EMB": {
+        "garments_reprint": 74,
+        "garments_total": 6862,
+        "garment_ratio": 0.0108,
+        "piece_pct": 1.08,
+        "tickets_reprint": 19,
+        "tickets_total": 295,
+        "ticket_ratio": 0.0644,
+        "ticket_pct": 6.44
+      }
+    }
+  },
+  "tickets": [
+    {
+      "visualId": "76036",
+      "nickname": "REPRINT-DTF- RICKS AUTO BODY- 8 PCS",
+      "depts": [
+        "DTF"
+      ],
+      "qty": 8,
+      "due": "2026-09-17"
+    },
+    {
+      "visualId": "76029",
+      "nickname": "REPRINT//RUSH-SP - Bryan Middle Cross Country - 79pc",
+      "depts": [
+        "SP"
+      ],
+      "qty": 79,
+      "due": "2026-09-14"
+    },
+    {
+      "visualId": "76005",
+      "nickname": "REPRINT//DTF - PO32745-3 - FOG RALLY POLOS - 6PC",
+      "depts": [
+        "DTF"
+      ],
+      "qty": 6,
+      "due": "2026-09-14"
+    },
+    {
+      "visualId": "75989",
+      "nickname": "REPRINT//RUSH  DTF- KICKER JERSEYS - 1 PCS",
+      "depts": [
+        "DTF"
+      ],
+      "qty": 1,
+      "due": "2026-09-11"
+    },
+    {
+      "visualId": "75979",
+      "nickname": "REPRINT-DTF- MILLWRIGHT LOCAL 740 - 22 PCS",
+      "depts": [
+        "DTF"
+      ],
+      "qty": 22,
+      "due": "2026-09-16"
+    },
+    {
+      "visualId": "75969",
+      "nickname": "REPRINT DTF - HAWKS HARVEST RIDGE - QTY 1",
+      "depts": [
+        "DTF"
+      ],
+      "qty": 1,
+      "due": "2026-09-17"
+    },
+    {
+      "visualId": "75961",
+      "nickname": "REPRINT-SP - Logic Systems -34 PCS",
+      "depts": [
+        "SP"
+      ],
+      "qty": 34,
+      "due": "2026-09-14"
+    },
+    {
+      "visualId": "75952",
+      "nickname": "REPRINT - 571750 Fort Zumwalt South Cross Country Customer DTF-FF-BLACK SHIRT-73140 -  (1 of 4)",
+      "depts": [
+        "DTF"
+      ],
+      "qty": 5,
+      "due": "2026-09-11"
+    },
+    {
+      "visualId": "75935",
+      "nickname": "RESTITCH//EMB - PO081726-P - LiUNA Jackets - 3PC",
+      "depts": [
+        "EMB"
+      ],
+      "qty": 3,
+      "due": "2026-09-11"
+    },
+    {
+      "visualId": "75906",
+      "nickname": "reprint rush - EMB - PO32745-3 - FOG RALLY JACKETS - 1PC",
+      "depts": [
+        "EMB"
+      ],
+      "qty": 1,
+      "due": "2026-09-10"
+    },
+    {
+      "visualId": "75904",
+      "nickname": "REPRINT-DTF - Skyline Hoodies -6 PCS",
+      "depts": [
+        "DTF"
+      ],
+      "qty": 6,
+      "due": "2026-09-15"
+    },
+    {
+      "visualId": "75900",
+      "nickname": "REPRINT-DTF - Skyline Long Sleeve Tees - 2 PCS",
+      "depts": [
+        "DTF"
+      ],
+      "qty": 2,
+      "due": "2026-09-15"
+    },
+    {
+      "visualId": "75896",
+      "nickname": "REPRINT - 565046 CENTRAL COUNTY FIRE STORE 2026 DTF - LC/FB -DESIGN 1 - 55098 -  (4 of 19)",
+      "depts": [
+        "DTF"
+      ],
+      "qty": 2,
+      "due": "2026-09-10"
+    },
+    {
+      "visualId": "75888",
+      "nickname": "REPRINT//SCRN - SCCAD Bayside 5100 Navy SS - 5 PC",
+      "depts": [
+        "SP"
+      ],
+      "qty": 5,
+      "due": "2026-09-10"
+    },
+    {
+      "visualId": "75881",
+      "nickname": "REPRINT: RUSH  SP - INT'L HOUSEKEEPING WEEK SHIRTS 2026 - QTY 57",
+      "depts": [
+        "SP"
+      ],
+      "qty": 57,
+      "due": "2026-09-14"
+    },
+    {
+      "visualId": "75866",
+      "nickname": "REPRINT//SP - CARPENTERS LOCAL 167 - 1PC ",
+      "depts": [
+        "SP"
+      ],
+      "qty": 1,
+      "due": "2026-09-10"
+    },
+    {
+      "visualId": "75821",
+      "nickname": "REPRINT//SP - BCI LINE WORKER - 5 PIECES",
+      "depts": [
+        "SP"
+      ],
+      "qty": 5,
+      "due": "2026-09-09"
+    },
+    {
+      "visualId": "75795",
+      "nickname": "REPRINT-RUSH- - DTF - CAGE JACKETS - QTY 1 ",
+      "depts": [
+        "DTF"
+      ],
+      "qty": 1,
+      "due": "2026-09-14"
+    },
+    {
+      "visualId": "75730",
+      "nickname": "REPRINT - 571750 Fort Zumwalt South Cross Country Customer DTF-FF-RED SHIRT-73140 -  (2 of 4)",
+      "depts": [
+        "DTF"
+      ],
+      "qty": 1,
+      "due": "2026-09-08"
+    },
+    {
+      "visualId": "75726",
+      "nickname": "REPRINT//DTF - Aquashella Trucker - 1pc - 7of7",
+      "depts": [
+        "DTF"
+      ],
+      "qty": 2,
+      "due": "2026-09-08"
+    },
+    {
+      "visualId": "75717",
+      "nickname": "REPRINT//SP - Lamke Repeat Apparel - 1pc 1OF2",
+      "depts": [
+        "SP"
+      ],
+      "qty": 1,
+      "due": "2026-09-08"
+    },
+    {
+      "visualId": "75698",
+      "nickname": "REPRINT - DTF - FF/FB - REVERSIBLE JERSEY - 53439 -REPLACEMENT RANDI",
+      "depts": [
+        "DTF"
+      ],
+      "qty": 1,
+      "due": "2026-09-04"
+    },
+    {
+      "visualId": "75688",
+      "nickname": "REPRINT// DTF - PO: 27-1050-21509--FZN Tennis Senior Night 2027 Tees - 1 PCS",
+      "depts": [
+        "DTF"
+      ],
+      "qty": 1,
+      "due": "2026-09-08"
+    },
+    {
+      "visualId": "75685",
+      "nickname": "REPRINT//DTF/  EMB/ BIG J EXPRESS/ 1PCS ",
+      "depts": [
+        "DTF",
+        "EMB"
+      ],
+      "qty": 1,
+      "due": "2026-09-08"
+    },
+    {
+      "visualId": "75682",
+      "nickname": "SP - Gwendolyn Volunteer - 16",
+      "depts": [
+        "SP"
+      ],
+      "qty": 16,
+      "due": "2026-09-10"
+    },
+    {
+      "visualId": "75651",
+      "nickname": "RESTITCH - EMB - SITELINES HATS - 6PC",
+      "depts": [
+        "EMB"
+      ],
+      "qty": 6,
+      "due": "2026-09-04"
+    },
+    {
+      "visualId": "75606",
+      "nickname": "REPRINT//DTF - Aquashella Trucker - 3pc - 7of7",
+      "depts": [
+        "DTF"
+      ],
+      "qty": 3,
+      "due": "2026-09-03"
+    },
+    {
+      "visualId": "75605",
+      "nickname": "REPRINT//SP - Aquashella NJ-VIP - 9pc - 2of7",
+      "depts": [
+        "SP",
+        "DTF"
+      ],
+      "qty": 9,
+      "due": "2026-09-03"
+    },
+    {
+      "visualId": "75587",
+      "nickname": "SCR BLACK DRIFIT TS WARRIORS HELMET LOGO REDO FOR CRACKING LOGOS ",
+      "depts": [
+        "SP"
+      ],
+      "qty": 35,
+      "due": "2026-09-04"
+    },
+    {
+      "visualId": "75559",
+      "nickname": "REPRINT/SP -  PUB N GRUB TEES - QTY 5 (2 of 2)",
+      "depts": [
+        "SP"
+      ],
+      "qty": 5,
+      "due": "2026-09-03"
+    },
+    {
+      "visualId": "75515",
+      "nickname": "REPRINT - 580816  Houston TRACON 2026 DTF-LC/FB/RS-D1-73584 - (1 of 3)",
+      "depts": [
+        "DTF"
+      ],
+      "qty": 3,
+      "due": "2026-09-02"
+    },
+    {
+      "visualId": "75502",
+      "nickname": "SCR/DTF FZN JR PANTHERS 5TH GRADE TEAM REPRINT MM MISTAKE ",
+      "depts": [
+        "SP",
+        "DTF"
+      ],
+      "qty": 30,
+      "due": "2026-09-03"
+    },
+    {
+      "visualId": "75377",
+      "nickname": "SP/DTF - YDA add-on jerseys + shorts - 1pc",
+      "depts": [
+        "SP",
+        "DTF"
+      ],
+      "qty": 1,
+      "due": "2026-09-02"
+    },
+    {
+      "visualId": "75288",
+      "nickname": "RESTITCH - EMB - SITELINES HATS - 30pc",
+      "depts": [
+        "EMB"
+      ],
+      "qty": 30,
+      "due": "2026-09-01"
+    }
+  ]
+}

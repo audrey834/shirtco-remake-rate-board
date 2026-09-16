@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta http-equiv="refresh" content="300"/>
+<title>Remake rate · Shirt.Co</title>
+<style>
+:root {
+  --bg:#0b0f14; --panel:#141b24; --card:#1a2330; --line:#2a3648;
+  --text:#e8eef6; --muted:#8b9aab; --link:#7db7ff; --accent:#5b8def;
+  --good:#3ddc97; --warn:#ffb020; --bad:#ff4d5a; --firm:#ffd166;
+  --pad:12px; --gap:10px;
+}
+* { box-sizing:border-box; }
+html, body { height:100%; width:100%; margin:0; }
+body {
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  background:var(--bg); color:var(--text);
+  display:flex; flex-direction:column;
+  overflow:hidden;
+}
+header {
+  flex:0 0 auto; padding:10px 16px 8px;
+  border-bottom:1px solid var(--line);
+  background:rgba(11,15,20,.96);
+  display:flex; justify-content:space-between; align-items:flex-end; gap:16px;
+}
+h1 { margin:0; font-size:1.35rem; letter-spacing:.03em; }
+.sub { color:var(--muted); font-size:.78rem; margin-top:2px; max-width:70ch; }
+.fresh {
+  text-align:right; color:var(--muted); font-size:.78rem;
+  font-variant-numeric:tabular-nums; white-space:nowrap;
+}
+.fresh .ok { color:var(--good); font-weight:700; }
+main {
+  flex:1 1 auto; min-height:0; overflow:hidden;
+  padding:var(--gap) 14px 12px;
+  display:grid;
+  grid-template-rows: auto auto 1fr;
+  gap:var(--gap);
+}
+.hero-row {
+  display:grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap:var(--gap);
+  min-height:0;
+}
+.hero, .compare, .dept, .tickets-panel {
+  background:var(--panel); border:1px solid var(--line); border-radius:12px;
+}
+.hero {
+  padding:18px 22px;
+  display:flex; flex-direction:column; justify-content:center;
+  border-left:5px solid var(--accent);
+  background:linear-gradient(135deg, #122038 0%, var(--panel) 55%);
+}
+.hero .label { color:var(--muted); font-size:.95rem; letter-spacing:.04em; text-transform:uppercase; }
+.hero .month { font-size:1.15rem; font-weight:700; margin-top:2px; }
+.hero .big {
+  font-size:5.2rem; font-weight:800; line-height:1;
+  font-variant-numeric:tabular-nums; margin:8px 0 4px;
+  letter-spacing:-.02em;
+}
+.hero .unit { font-size:1.6rem; font-weight:700; color:var(--link); margin-left:4px; }
+.hero .counts {
+  color:var(--muted); font-size:.95rem; font-variant-numeric:tabular-nums;
+}
+.hero .ticket-sec {
+  margin-top:8px; font-size:1.05rem; color:var(--firm);
+  font-variant-numeric:tabular-nums;
+}
+.compare {
+  padding:16px 18px;
+  display:flex; flex-direction:column; justify-content:center;
+}
+.compare h2 {
+  margin:0 0 8px; font-size:.85rem; color:var(--muted);
+  text-transform:uppercase; letter-spacing:.04em; font-weight:600;
+}
+.compare .prev-pct {
+  font-size:2.8rem; font-weight:800; font-variant-numeric:tabular-nums; line-height:1.05;
+}
+.compare .delta {
+  margin-top:8px; font-size:1.1rem; font-weight:700; font-variant-numeric:tabular-nums;
+}
+.compare .delta.down { color:var(--good); }
+.compare .delta.up { color:var(--bad); }
+.compare .delta.flat { color:var(--muted); }
+.compare .meta { color:var(--muted); font-size:.85rem; margin-top:6px; font-variant-numeric:tabular-nums; }
+.depts {
+  display:grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap:var(--gap);
+}
+.dept {
+  padding:14px 16px;
+  border-top:3px solid var(--accent);
+}
+.dept[data-dept="SP"] { border-top-color:#5b8def; }
+.dept[data-dept="DTF"] { border-top-color:#ff9f43; }
+.dept[data-dept="EMB"] { border-top-color:#3ddc97; }
+.dept .name { font-size:1rem; font-weight:800; letter-spacing:.06em; }
+.dept .pct {
+  font-size:2.6rem; font-weight:800; font-variant-numeric:tabular-nums;
+  line-height:1.1; margin:6px 0 4px;
+}
+.dept .counts { color:var(--muted); font-size:.82rem; font-variant-numeric:tabular-nums; }
+.dept .ticket { color:var(--firm); font-size:.88rem; margin-top:6px; font-variant-numeric:tabular-nums; }
+.tickets-panel {
+  min-height:0; display:flex; flex-direction:column; overflow:hidden;
+}
+.tickets-panel h2 {
+  margin:0; padding:10px 14px; font-size:.95rem;
+  border-bottom:1px solid var(--line);
+  display:flex; justify-content:space-between; align-items:baseline;
+}
+.tickets-panel h2 .n { color:var(--muted); font-variant-numeric:tabular-nums; }
+.table-wrap { flex:1 1 auto; min-height:0; overflow:auto; }
+table {
+  width:100%; border-collapse:collapse; font-size:.88rem;
+  font-variant-numeric:tabular-nums;
+}
+th {
+  text-align:left; color:var(--muted); font-weight:600; font-size:.72rem;
+  text-transform:uppercase; letter-spacing:.04em;
+  padding:6px 12px; border-bottom:1px solid var(--line);
+  position:sticky; top:0; background:var(--panel);
+}
+td { padding:5px 12px; border-bottom:1px solid rgba(42,54,72,.55); vertical-align:top; }
+td.vid { font-weight:800; width:5.5rem; color:var(--link); }
+td.qty { width:3.5rem; text-align:right; }
+td.due { width:6.5rem; white-space:nowrap; }
+td.depts { width:6rem; color:var(--muted); white-space:nowrap; }
+td.nick {
+  max-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
+}
+.err {
+  margin:20px; padding:14px; background:#3a1218; color:#ff8a95;
+  border-radius:8px; font-size:.95rem;
+}
+.pct-good { color:var(--good); }
+.pct-mid { color:var(--firm); }
+.pct-hi { color:var(--bad); }
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>Remake rate · Shirt.Co</h1>
+    <div class="sub" id="rule">Piece % first · remake = REPRINT / RESTITCH / REDO only</div>
+  </div>
+  <div class="fresh">Data <span class="ok" id="fresh">—</span></div>
+</header>
+<main id="app">
+  <div class="err">Loading board.json…</div>
+</main>
+<script>
+function pctClass(p) {
+  if (p == null || isNaN(p)) return '';
+  if (p < 1.5) return 'pct-good';
+  if (p < 3) return 'pct-mid';
+  return 'pct-hi';
+}
+function fmtPct(p) {
+  if (p == null || isNaN(p)) return '—';
+  return Number(p).toFixed(2);
+}
+function fmtN(n) {
+  if (n == null) return '—';
+  return Number(n).toLocaleString('en-US');
+}
+function deltaHtml(cur, prev) {
+  if (cur == null || prev == null || isNaN(cur) || isNaN(prev)) {
+    return '<div class="delta flat">—</div>';
+  }
+  const d = cur - prev;
+  const abs = Math.abs(d).toFixed(2);
+  if (Math.abs(d) < 0.005) return '<div class="delta flat">flat vs prior</div>';
+  if (d < 0) return `<div class="delta down">▼ ${abs} pts vs prior (better)</div>`;
+  return `<div class="delta up">▲ ${abs} pts vs prior (worse)</div>`;
+}
+function render(data) {
+  document.getElementById('rule').textContent = data.rule || '';
+  document.getElementById('fresh').textContent = data.updated_at_ct || 'unknown';
+  const cur = data.current || {};
+  const prev = data.previous || null;
+  const depts = (cur.by_dept) || {};
+  const tickets = data.tickets || [];
+
+  const deptCards = ['SP','DTF','EMB'].map(name => {
+    const d = depts[name] || {};
+    return `<section class="dept" data-dept="${name}">
+      <div class="name">${name}</div>
+      <div class="pct ${pctClass(d.piece_pct)}">${fmtPct(d.piece_pct)}<span style="font-size:1.1rem;color:var(--muted)">%</span></div>
+      <div class="counts">${fmtN(d.garments_reprint)} / ${fmtN(d.garments_total)} pcs</div>
+      <div class="ticket">tickets ${fmtPct(d.ticket_pct)}% · ${fmtN(d.tickets_reprint)} / ${fmtN(d.tickets_total)}</div>
+    </section>`;
+  }).join('');
+
+  const rows = tickets.map(t => {
+    const depts = (t.depts || []).join(', ');
+    const nick = (t.nickname || '').replace(/</g,'&lt;');
+    return `<tr>
+      <td class="vid">${t.visualId || ''}</td>
+      <td class="nick" title="${nick}">${nick}</td>
+      <td class="depts">${depts}</td>
+      <td class="qty">${fmtN(t.qty)}</td>
+      <td class="due">${t.due || ''}</td>
+    </tr>`;
+  }).join('') || '<tr><td colspan="5" style="color:var(--muted)">No remake tickets listed for current month</td></tr>';
+
+  const prevLabel = prev ? (prev.label || prev.key) : '—';
+  const prevPct = prev ? prev.piece_pct : null;
+
+  document.getElementById('app').innerHTML = `
+  <div class="hero-row">
+    <section class="hero">
+      <div class="label">Overall piece remake rate · MTD</div>
+      <div class="month">${cur.label || cur.key || ''} · ${(cur.status || '').toUpperCase()}</div>
+      <div class="big ${pctClass(cur.piece_pct)}">${fmtPct(cur.piece_pct)}<span class="unit">%</span></div>
+      <div class="counts">${fmtN(cur.garments_reprint)} remake pcs / ${fmtN(cur.garments_total)} total</div>
+      <div class="ticket-sec">Ticket % ${fmtPct(cur.ticket_pct)} · ${fmtN(cur.tickets_reprint)} / ${fmtN(cur.tickets_total)} tickets</div>
+    </section>
+    <section class="compare">
+      <h2>Last closed month</h2>
+      <div style="font-weight:700;margin-bottom:4px">${prevLabel}</div>
+      <div class="prev-pct ${pctClass(prevPct)}">${fmtPct(prevPct)}%</div>
+      ${deltaHtml(cur.piece_pct, prevPct)}
+      <div class="meta">${prev ? (fmtN(prev.garments_reprint) + ' / ' + fmtN(prev.garments_total) + ' pcs · ticket ' + fmtPct(prev.ticket_pct) + '%') : ''}</div>
+    </section>
+  </div>
+  <div class="depts">${deptCards}</div>
+  <section class="tickets-panel">
+    <h2>Current month remakes <span class="n">${tickets.length} shown</span></h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>ID</th><th>Nickname</th><th>Dept</th><th>Qty</th><th>Due</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>
+  </section>`;
+}
+async function load() {
+  try {
+    const r = await fetch('board.json?t=' + Date.now(), { cache: 'no-store' });
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    render(await r.json());
+  } catch (e) {
+    document.getElementById('app').innerHTML =
+      '<div class="err">Failed to load board.json: ' + e.message + '</div>';
+  }
+}
+load();
+</script>
+</body>
+</html>
