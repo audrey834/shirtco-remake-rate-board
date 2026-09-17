@@ -1,6 +1,11 @@
 {
   "updated_at_ct": "2026-09-11 4:49 PM CT",
-  "rule": "Remake = nickname REPRINT/RESTITCH/REDO or #reprint/#restitch/#redo only. EXISTING #### alone \u2260 remake. MISPRINTS originals \u2260 remake.",
+  "counts_as_of_ct": "2026-09-11 4:49 PM CT",
+  "last_success_at_ct": "2026-09-17 4:46 PM CT",
+  "counting_mode": "completed_orders_only",
+  "counting_note": "Completed only = Order Complete / Shipped / Ready for Pickup / Picked Up / Delivered (incl. red owes). Next recount Friday ~4:30 CT MTD.",
+  "freshness_status": "stale_pending_friday_mtd",
+  "rule": "Completed orders only. Remake = nickname REPRINT/RESTITCH/REDO or #reprint/#restitch/#redo only. EXISTING #### alone \u2260 remake. MISPRINTS originals \u2260 remake.",
   "metric": "piece_pct",
   "metric_note": "piece % = garments_reprint / garments_total; ticket % secondary",
   "current": {

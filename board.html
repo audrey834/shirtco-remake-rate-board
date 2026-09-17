@@ -32,7 +32,29 @@ h1 { margin:0; font-size:1.35rem; letter-spacing:.03em; }
   text-align:right; color:var(--muted); font-size:.78rem;
   font-variant-numeric:tabular-nums; white-space:nowrap;
 }
+.fresh .asof {
+  display:block; color:var(--text); font-size:1.05rem; font-weight:800;
+  margin-bottom:2px;
+}
+.fresh .asof .lab { color:var(--muted); font-weight:600; font-size:.75rem;
+  text-transform:uppercase; letter-spacing:.04em; margin-right:6px; }
+.fresh .pub { display:block; margin-top:2px; }
 .fresh .ok { color:var(--good); font-weight:700; }
+.fresh .stale { color:var(--warn); font-weight:700; }
+.warn-banner {
+  flex:0 0 auto;
+  background:rgba(255,176,32,.14);
+  border-bottom:1px solid rgba(255,176,32,.45);
+  color:var(--warn);
+  padding:8px 16px;
+  font-size:.95rem; font-weight:700;
+  letter-spacing:.01em;
+  display:none;
+}
+.warn-banner.show { display:block; }
+.mode-line {
+  color:var(--firm); font-size:.8rem; margin-top:4px; font-weight:600;
+}
 main {
   flex:1 1 auto; min-height:0; overflow:hidden;
   padding:var(--gap) 14px 12px;
@@ -147,9 +169,14 @@ td.nick {
   <div>
     <h1>Remake rate · Shirt.Co</h1>
     <div class="sub" id="rule">Piece % first · remake = REPRINT / RESTITCH / REDO only</div>
+    <div class="mode-line" id="modeLine">Completed orders only (Order Complete / Shipped / Ready for Pickup / Picked Up / Delivered)</div>
   </div>
-  <div class="fresh">Data <span class="ok" id="fresh">—</span></div>
+  <div class="fresh" id="freshBox">
+    <span class="asof"><span class="lab">As of</span><span class="stale" id="asOf">—</span></span>
+    <span class="pub">Last published <span id="lastPub">—</span></span>
+  </div>
 </header>
+<div class="warn-banner" id="warnBanner" role="status"></div>
 <main id="app">
   <div class="err">Loading board.json…</div>
 </main>
@@ -178,9 +205,50 @@ function deltaHtml(cur, prev) {
   if (d < 0) return `<div class="delta down">▼ ${abs} pts vs prior (better)</div>`;
   return `<div class="delta up">▲ ${abs} pts vs prior (worse)</div>`;
 }
+function shortAsOf(ct) {
+  // "2026-09-11 4:49 PM CT" → "Fri Sep 11"
+  if (!ct) return '—';
+  const m = String(ct).match(/(\d{4})-(\d{2})-(\d{2})/);
+  if (!m) return ct;
+  const dt = new Date(Number(m[1]), Number(m[2]) - 1, Number(m[3]));
+  const days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+  const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  return days[dt.getDay()] + ' ' + months[dt.getMonth()] + ' ' + dt.getDate();
+}
+function isStaleOrPending(status) {
+  const s = (status || '').toLowerCase();
+  return s.includes('stale') || s.includes('pending') || s.includes('friday');
+}
 function render(data) {
   document.getElementById('rule').textContent = data.rule || '';
-  document.getElementById('fresh').textContent = data.updated_at_ct || 'unknown';
+  const asOf = data.counts_as_of_ct || data.updated_at_ct || 'unknown';
+  const lastPub = data.last_success_at_ct || '—';
+  const status = data.freshness_status || '';
+  const asOfEl = document.getElementById('asOf');
+  asOfEl.textContent = asOf;
+  asOfEl.className = isStaleOrPending(status) ? 'stale' : 'ok';
+  document.getElementById('lastPub').textContent = lastPub;
+
+  const mode = data.counting_mode || '';
+  const modeEl = document.getElementById('modeLine');
+  if (mode === 'completed_orders_only' || (data.counting_note || '').toLowerCase().includes('completed')) {
+    modeEl.textContent = 'Completed orders only (Order Complete / Shipped / Ready for Pickup / Picked Up / Delivered)';
+    modeEl.style.display = '';
+  } else {
+    modeEl.textContent = data.counting_note || '';
+  }
+
+  const banner = document.getElementById('warnBanner');
+  if (isStaleOrPending(status)) {
+    banner.textContent =
+      'Counts as of ' + shortAsOf(asOf) +
+      ' · completed-only recount Friday MTD — not current';
+    banner.classList.add('show');
+  } else {
+    banner.classList.remove('show');
+    banner.textContent = '';
+  }
+
   const cur = data.current || {};
   const prev = data.previous || null;
   const depts = (cur.by_dept) || {};
