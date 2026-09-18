@@ -1,7 +1,7 @@
 {
   "updated_at_ct": "2026-09-11 4:49 PM CT",
   "counts_as_of_ct": "2026-09-11 4:49 PM CT",
-  "last_success_at_ct": "2026-09-17 4:46 PM CT",
+  "last_success_at_ct": "2026-09-18 4:42 PM CT",
   "counting_mode": "completed_orders_only",
   "counting_note": "Completed only = Order Complete / Shipped / Ready for Pickup / Picked Up / Delivered (incl. red owes). Next recount Friday ~4:30 CT MTD.",
   "freshness_status": "stale_pending_friday_mtd",
