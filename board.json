@@ -1,55 +1,55 @@
 {
-  "updated_at_ct": "2026-09-25 4:35 PM CT",
-  "counts_as_of_ct": "2026-09-25 4:35 PM CT",
-  "last_success_at_ct": "2026-09-25 4:48 PM CT",
+  "updated_at_ct": "2026-10-02 4:36 PM CT",
+  "counts_as_of_ct": "2026-10-02 4:36 PM CT",
+  "last_success_at_ct": "2026-10-02 4:48 PM CT",
   "counting_mode": "completed_orders_only",
-  "counting_note": "Completed only = Order Complete / Shipped / Ready for Pickup / Picked Up / Delivered (incl. red owes). Friday 2026-09-25 MTD recount.",
+  "counting_note": "Completed only = Order Complete / Shipped / Ready for Pickup / Picked Up / Delivered (incl. red owes). Friday 2026-10-02 MTD recount.",
   "freshness_status": "fresh",
   "rule": "Completed orders only. Remake = nickname REPRINT/RESTITCH/REDO or #reprint/#restitch/#redo only. EXISTING #### alone \u2260 remake. MISPRINTS originals \u2260 remake.",
   "metric": "piece_pct",
   "metric_note": "piece % = garments_reprint / garments_total; ticket % secondary",
   "current": {
-    "key": "2026-09",
-    "label": "September 2026",
+    "key": "2026-10",
+    "label": "October 2026",
     "status": "mtd",
-    "garments_reprint": 929,
-    "garments_total": 40921,
-    "garment_ratio": 0.0227,
-    "piece_pct": 2.27,
-    "tickets_reprint": 72,
-    "tickets_total": 756,
-    "ticket_ratio": 0.0952,
-    "ticket_pct": 9.52,
+    "garments_reprint": 25,
+    "garments_total": 1908,
+    "garment_ratio": 0.0131,
+    "piece_pct": 1.31,
+    "tickets_reprint": 3,
+    "tickets_total": 45,
+    "ticket_ratio": 0.0667,
+    "ticket_pct": 6.67,
     "by_dept": {
       "SP": {
-        "garments_reprint": 696,
-        "garments_total": 25966,
-        "garment_ratio": 0.0268,
-        "piece_pct": 2.68,
-        "tickets_reprint": 24,
-        "tickets_total": 173,
-        "ticket_ratio": 0.1387,
-        "ticket_pct": 13.87
+        "garments_reprint": 22,
+        "garments_total": 1082,
+        "garment_ratio": 0.0203,
+        "piece_pct": 2.03,
+        "tickets_reprint": 1,
+        "tickets_total": 10,
+        "ticket_ratio": 0.1,
+        "ticket_pct": 10.0
       },
       "DTF": {
-        "garments_reprint": 447,
-        "garments_total": 8162,
-        "garment_ratio": 0.0548,
-        "piece_pct": 5.48,
-        "tickets_reprint": 41,
-        "tickets_total": 374,
-        "ticket_ratio": 0.1096,
-        "ticket_pct": 10.96
+        "garments_reprint": 3,
+        "garments_total": 405,
+        "garment_ratio": 0.0074,
+        "piece_pct": 0.74,
+        "tickets_reprint": 2,
+        "tickets_total": 23,
+        "ticket_ratio": 0.087,
+        "ticket_pct": 8.7
       },
       "EMB": {
-        "garments_reprint": 82,
-        "garments_total": 7207,
-        "garment_ratio": 0.0114,
-        "piece_pct": 1.14,
-        "tickets_reprint": 15,
-        "tickets_total": 241,
-        "ticket_ratio": 0.0622,
-        "ticket_pct": 6.22
+        "garments_reprint": 0,
+        "garments_total": 498,
+        "garment_ratio": 0.0,
+        "piece_pct": 0.0,
+        "tickets_reprint": 0,
+        "tickets_total": 14,
+        "ticket_ratio": 0.0,
+        "ticket_pct": 0.0
       }
     }
   },
@@ -100,368 +100,31 @@
   },
   "tickets": [
     {
-      "visualId": "76681",
-      "nickname": "REPRINT - B364641 Pride of Pattonville Marching Band Apparel 2026 - Batched 09/16/2026 DTF-FF/FB-74072 - (3 of 3)",
-      "depts": [
-        "DTF"
-      ],
-      "qty": 1,
-      "due": "2026-09-24"
-    },
-    {
-      "visualId": "76667",
-      "nickname": "REPRINT - 602866 WASHINGTON MIDDLE SPIRIT WEAR 2026-2027 DTF - FF WMS ARCHED SCRIPT - ROYAL/WHITE -  30102 -  (6 of 8)",
-      "depts": [
-        "DTF"
-      ],
-      "qty": 1,
-      "due": "2026-09-24"
-    },
-    {
-      "visualId": "76663",
-      "nickname": "REPRINT - 602866 WASHINGTON MIDDLE SPIRIT WEAR 2026-2027 DTF-FF-CIRCLE WHITE/RED LOGO-74710 -  (2 of 8)",
-      "depts": [
-        "DTF"
-      ],
-      "qty": 1,
-      "due": "2026-09-24"
-    },
-    {
-      "visualId": "76652",
-      "nickname": "REPRINT - B358541 St. Charles West High School 2026 - Batched 09/10/2026 DTF - FF - WARRIORS - 74128 - (5 of 6)",
-      "depts": [
-        "DTF"
-      ],
-      "qty": 1,
-      "due": "2026-09-24"
-    },
-    {
-      "visualId": "76613",
-      "nickname": "RESTITCH//EMB- OLIVE ORTHODONTICS- 8 PCS",
-      "depts": [
-        "EMB"
-      ],
-      "qty": 11,
-      "due": "2026-09-24"
-    },
-    {
-      "visualId": "76612",
-      "nickname": "RESTITCH//EMB - HBCSD Polos - 1 PCS",
-      "depts": [
-        "EMB"
-      ],
-      "qty": 1,
-      "due": "2026-09-23"
-    },
-    {
-      "visualId": "76591",
-      "nickname": "REPRINT//SCR SISTA STRUT 2026 - 24 PCS",
+      "visualId": "77114",
+      "nickname": "RUSH REPRINT SP - Independence Elem Fun Run 2026 - 22 PC",
       "depts": [
         "SP"
       ],
-      "qty": 24,
-      "due": "2026-09-23"
+      "qty": 22,
+      "due": "2026-10-02"
     },
     {
-      "visualId": "76588",
-      "nickname": "RESTITCH - 611136 VIRTUAL WARFARE CENTER  EMB - LC/RS  - 71185 -  (1 of 1)",
-      "depts": [
-        "EMB"
-      ],
-      "qty": 1,
-      "due": "2026-09-23"
-    },
-    {
-      "visualId": "76543",
-      "nickname": "REPRINT//SP - Voting Rights Lab SF500 Black Hoodies - 1pc",
-      "depts": [
-        "SP"
-      ],
-      "qty": 1,
-      "due": "2026-09-22"
-    },
-    {
-      "visualId": "76526",
-      "nickname": "REPRINT- SP - Middle School Athletics Tees - 8 PCS",
-      "depts": [
-        "SP",
-        "DTF"
-      ],
-      "qty": 8,
-      "due": "2026-09-23"
-    },
-    {
-      "visualId": "76508",
-      "nickname": "REPRINT - SCRN - FF - D1 - EISEN - 67637 - REPLACEMENT KATE KAMINSKY",
-      "depts": [
-        "SP"
-      ],
-      "qty": 1,
-      "due": "2026-09-21"
-    },
-    {
-      "visualId": "76504",
-      "nickname": "REPRINT - 607104 FORT ZUMWALT NORTH GOLF 2026 DTF-FC-74770",
-      "depts": [
-        "DTF"
-      ],
-      "qty": 16,
-      "due": "2026-09-22"
-    },
-    {
-      "visualId": "76472",
-      "nickname": "RESTITCH//EMB bigjexpress hat - 2 pc ",
-      "depts": [
-        "EMB"
-      ],
-      "qty": 2,
-      "due": "2026-09-22"
-    },
-    {
-      "visualId": "76468",
-      "nickname": "REPRINT-DTF - FHHS Senior Band Shirts -1 pc",
-      "depts": [
-        "DTF"
-      ],
-      "qty": 1,
-      "due": "2026-09-22"
-    },
-    {
-      "visualId": "76450",
-      "nickname": "REPRINT - 610846 Wright City Fire Department 2026  DTF -LC/ LS/RS/FB  - UNION - 67189 -  (6 of 11)",
-      "depts": [
-        "DTF"
-      ],
-      "qty": 3,
-      "due": "2026-09-21"
-    },
-    {
-      "visualId": "76449",
-      "nickname": "REPRINT - 610846 Wright City Fire Department 2026  DTF - LC/FB/LS -  BREAST CANCER -NON-UNION - 67194 -  (1 of 11)",
-      "depts": [
-        "DTF"
-      ],
-      "qty": 1,
-      "due": "2026-09-21"
-    },
-    {
-      "visualId": "76448",
-      "nickname": "RESTITCH - 610846 Wright City Fire Department 2026  EMB - HATS - WRIGHT CITY - 43630 -  (9 of 11)",
-      "depts": [
-        "EMB"
-      ],
-      "qty": 1,
-      "due": "2026-09-21"
-    },
-    {
-      "visualId": "76446",
-      "nickname": "REPRINT - 576181 Orchard Farm Store 2026 DTF-FF-D1-72657",
-      "depts": [
-        "DTF"
-      ],
-      "qty": 25,
-      "due": "2026-09-22"
-    },
-    {
-      "visualId": "76445",
-      "nickname": "REPRINT - 576181 Orchard Farm Store 2026 DTF-FF-D2-72657",
-      "depts": [
-        "DTF"
-      ],
-      "qty": 19,
-      "due": "2026-09-22"
-    },
-    {
-      "visualId": "76432",
-      "nickname": "REPRINT/EMB - Purple Bee Farm Dad Hats - 17PC",
-      "depts": [
-        "EMB"
-      ],
-      "qty": 17,
-      "due": "2026-09-21"
-    },
-    {
-      "visualId": "76430",
-      "nickname": "REPRINT//DTF - WARHAWKS REVERSIBLE JERSEYS AND SHORTS - QTY 2",
+      "visualId": "77035",
+      "nickname": "REPRINT - RUSH - 643461 Rally for a Reason Night DTF - FF - 76494 - (1 of 1)",
       "depts": [
         "DTF"
       ],
       "qty": 2,
-      "due": "2026-09-21"
+      "due": "2026-10-01"
     },
     {
-      "visualId": "76427",
-      "nickname": "REPRINT - B349935 St. Charles West High School 2026 - Batched 09/03/2026 DTF - FF - UPDATED D1 - 74541 -  (2 of 10)",
+      "visualId": "76732",
+      "nickname": "REPRINT - DTF - EAGLE SCRIPT - 30104 - QTY 1",
       "depts": [
         "DTF"
       ],
       "qty": 1,
-      "due": "2026-09-21"
-    },
-    {
-      "visualId": "76416",
-      "nickname": "RESTITCH-EMB - FHHS Marching Band Viking Head - 5 PCS",
-      "depts": [
-        "EMB"
-      ],
-      "qty": 5,
-      "due": "2026-09-21"
-    },
-    {
-      "visualId": "76353",
-      "nickname": "REPRINT - B349935 St. Charles West High School 2026 - Batched 09/03/2026 DTF - FF - UPDATED D1 - 74541 -  (2 of 10)",
-      "depts": [
-        "DTF"
-      ],
-      "qty": 1,
-      "due": "2026-09-18"
-    },
-    {
-      "visualId": "76350",
-      "nickname": "REPRINT SP - FirstSpear Tarot Tubes tees - 151pc poPO48355",
-      "depts": [
-        "SP"
-      ],
-      "qty": 151,
-      "due": "2026-09-21"
-    },
-    {
-      "visualId": "76345",
-      "nickname": "REPRINT//SP - Habitat Volunteer Shirts - 2pc",
-      "depts": [
-        "SP"
-      ],
-      "qty": 2,
-      "due": "2026-09-18"
-    },
-    {
-      "visualId": "76322",
-      "nickname": "REPRINT=DTF - FHHS Marching Band Classic Viking Logo - 4 PCS",
-      "depts": [
-        "DTF"
-      ],
-      "qty": 4,
-      "due": "2026-09-18"
-    },
-    {
-      "visualId": "76292",
-      "nickname": "REPRINT - 623705 ST. DOMINIC VOLLEYBALL ONLINE STORE FALL 2026 DTF - FF - NAVY SCRIPT - 74484 -  (3 of 4)",
-      "depts": [
-        "DTF"
-      ],
-      "qty": 1,
-      "due": "2026-09-17"
-    },
-    {
-      "visualId": "76198",
-      "nickname": "DTF - SCW D1 W WARRIORS - 7 PCS",
-      "depts": [
-        "DTF"
-      ],
-      "qty": 7,
-      "due": "2026-09-17"
-    },
-    {
-      "visualId": "76192",
-      "nickname": "REPRINT//SP - PO9032026 - HAVEN TEE HOODIE - 1PC 1of2",
-      "depts": [
-        "SP"
-      ],
-      "qty": 1,
-      "due": "2026-09-16"
-    },
-    {
-      "visualId": "76189",
-      "nickname": "REPRINT - 592811 Manchester Police Department 2026 SCRN - LC - WHITE - 12534",
-      "depts": [
-        "SP",
-        "DTF"
-      ],
-      "qty": 1,
-      "due": "2026-09-16"
-    },
-    {
-      "visualId": "76178",
-      "nickname": "DTF - Local 1 Pipe Covers FC Soccer Uniforms - 26 PCS",
-      "depts": [
-        "SP",
-        "DTF"
-      ],
-      "qty": 26,
-      "due": "2026-09-16"
-    },
-    {
-      "visualId": "76140",
-      "nickname": "REPRINT EMB - DISCOVERY RIDGE ELEM. 1/4 ZIPS- qty 1",
-      "depts": [
-        "EMB"
-      ],
-      "qty": 1,
-      "due": "2026-09-21"
-    },
-    {
-      "visualId": "76134",
-      "nickname": "RESTITCH - 601088 ELK Grove Village Fire 2026 EMB - LC - NON UNION -  60072 - (1 of 4)",
-      "depts": [
-        "EMB"
-      ],
-      "qty": 1,
-      "due": "2026-09-15"
-    },
-    {
-      "visualId": "76122",
-      "nickname": "RESTITCH - 610846 Wright City Fire Department 2026  EMB - LC/RC/FB - NON- UNION- COAT - 50773 -  (10 of 11)",
-      "depts": [
-        "EMB"
-      ],
-      "qty": 1,
-      "due": "2026-09-15"
-    },
-    {
-      "visualId": "76117",
-      "nickname": "REPRINT-SP - Refuge Church Tees -39 PCS",
-      "depts": [
-        "SP"
-      ],
-      "qty": 39,
-      "due": "2026-09-15"
-    },
-    {
-      "visualId": "76113",
-      "nickname": "REPRINT - SP/DTF - DTF - I AM LOCAL 2202 - 220pc",
-      "depts": [
-        "SP",
-        "DTF"
-      ],
-      "qty": 220,
-      "due": "2026-09-21"
-    },
-    {
-      "visualId": "76071",
-      "nickname": "reprint//DTF - OPERA/ PIT HAPPENS -1PC ",
-      "depts": [
-        "DTF"
-      ],
-      "qty": 1,
-      "due": "2026-09-15"
-    },
-    {
-      "visualId": "76066",
-      "nickname": "REPRINT - 586067 USD 207 Store 2026 SCRN -  FF - D1 - 67640 -  (3 of 14)",
-      "depts": [
-        "SP"
-      ],
-      "qty": 1,
-      "due": "2026-09-14"
-    },
-    {
-      "visualId": "76036",
-      "nickname": "REPRINT-DTF- RICKS AUTO BODY- 8 PCS",
-      "depts": [
-        "DTF"
-      ],
-      "qty": 8,
-      "due": "2026-09-17"
+      "due": "2026-10-01"
     }
   ]
 }
