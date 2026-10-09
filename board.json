@@ -1,9 +1,9 @@
 {
-  "updated_at_ct": "2026-10-05 8:31 AM CT",
-  "counts_as_of_ct": "2026-10-05 8:31 AM CT",
-  "last_success_at_ct": "2026-10-05 8:33 AM CT",
+  "updated_at_ct": "2026-10-09 4:37 PM CT",
+  "counts_as_of_ct": "2026-10-09 4:37 PM CT",
+  "last_success_at_ct": "2026-10-09 4:52 PM CT",
   "counting_mode": "completed_orders_only",
-  "counting_note": "Completed only = Order Complete / Shipped / Ready for Pickup / Picked Up / Delivered (incl. red owes). September closed first Monday 2026-10-05; October still MTD (Friday 2026-10-02).",
+  "counting_note": "Completed only = Order Complete / Shipped / Ready for Pickup / Picked Up / Delivered (incl. red owes). Friday 2026-10-09 MTD recount.",
   "freshness_status": "fresh",
   "rule": "Completed orders only. Remake = nickname REPRINT/RESTITCH/REDO or #reprint/#restitch/#redo only. EXISTING #### alone \u2260 remake. MISPRINTS originals \u2260 remake.",
   "metric": "piece_pct",
@@ -12,44 +12,44 @@
     "key": "2026-10",
     "label": "October 2026",
     "status": "mtd",
-    "garments_reprint": 25,
-    "garments_total": 1908,
-    "garment_ratio": 0.0131,
-    "piece_pct": 1.31,
-    "tickets_reprint": 3,
-    "tickets_total": 45,
-    "ticket_ratio": 0.0667,
-    "ticket_pct": 6.67,
+    "garments_reprint": 213,
+    "garments_total": 7540,
+    "garment_ratio": 0.0282,
+    "piece_pct": 2.82,
+    "tickets_reprint": 26,
+    "tickets_total": 213,
+    "ticket_ratio": 0.1221,
+    "ticket_pct": 12.21,
     "by_dept": {
       "SP": {
-        "garments_reprint": 22,
-        "garments_total": 1082,
-        "garment_ratio": 0.0203,
-        "piece_pct": 2.03,
-        "tickets_reprint": 1,
-        "tickets_total": 10,
-        "ticket_ratio": 0.1,
-        "ticket_pct": 10.0
+        "garments_reprint": 147,
+        "garments_total": 4387,
+        "garment_ratio": 0.0335,
+        "piece_pct": 3.35,
+        "tickets_reprint": 7,
+        "tickets_total": 51,
+        "ticket_ratio": 0.1373,
+        "ticket_pct": 13.73
       },
       "DTF": {
-        "garments_reprint": 3,
-        "garments_total": 405,
-        "garment_ratio": 0.0074,
-        "piece_pct": 0.74,
-        "tickets_reprint": 2,
-        "tickets_total": 23,
-        "ticket_ratio": 0.087,
-        "ticket_pct": 8.7
+        "garments_reprint": 61,
+        "garments_total": 1836,
+        "garment_ratio": 0.0332,
+        "piece_pct": 3.32,
+        "tickets_reprint": 16,
+        "tickets_total": 108,
+        "ticket_ratio": 0.1481,
+        "ticket_pct": 14.81
       },
       "EMB": {
-        "garments_reprint": 0,
-        "garments_total": 498,
-        "garment_ratio": 0.0,
-        "piece_pct": 0.0,
-        "tickets_reprint": 0,
-        "tickets_total": 14,
-        "ticket_ratio": 0.0,
-        "ticket_pct": 0.0
+        "garments_reprint": 6,
+        "garments_total": 1838,
+        "garment_ratio": 0.0033,
+        "piece_pct": 0.33,
+        "tickets_reprint": 4,
+        "tickets_total": 61,
+        "ticket_ratio": 0.0656,
+        "ticket_pct": 6.56
       }
     }
   },
@@ -100,6 +100,160 @@
   },
   "tickets": [
     {
+      "visualId": "77419",
+      "nickname": "RUSH REPRINT -DTF - OPERA/ PIT HAPPENS - QTY 1",
+      "depts": [
+        "DTF"
+      ],
+      "qty": 1,
+      "due": "2026-10-15"
+    },
+    {
+      "visualId": "77411",
+      "nickname": "REPRINT//RUSH-SP - Veritas Collegiate V Eagles Teal Tees - 1 PCS",
+      "depts": [
+        "SP"
+      ],
+      "qty": 1,
+      "due": "2026-10-08"
+    },
+    {
+      "visualId": "77394",
+      "nickname": "REPRINT-DTF - BLACK JACK FIRE STORE - UNION NAVY GARMENTS - 37190 REPLACEMENT BRYAN  NELSON",
+      "depts": [
+        "DTF"
+      ],
+      "qty": 1,
+      "due": "2026-10-08"
+    },
+    {
+      "visualId": "77369",
+      "nickname": "REPRINT //SP - Auto Vitality - 26pc2OF2",
+      "depts": [
+        "SP"
+      ],
+      "qty": 6,
+      "due": "2026-10-09"
+    },
+    {
+      "visualId": "77367",
+      "nickname": "REPRINT - RUSH - 601289 Francis Howell Middle School Music 2026 SCRN -FHHS MUSIC DEPARTMENT 28776 -  (1 of 1)",
+      "depts": [
+        "SP"
+      ],
+      "qty": 5,
+      "due": "2026-10-08"
+    },
+    {
+      "visualId": "77344",
+      "nickname": "REPRINT- SP- Rec Plex Sharks 26-27 -1 pcs",
+      "depts": [
+        "SP",
+        "DTF"
+      ],
+      "qty": 1,
+      "due": "2026-10-08"
+    },
+    {
+      "visualId": "77305",
+      "nickname": "REPRINT SP - FZW NHS - 78pc",
+      "depts": [
+        "SP"
+      ],
+      "qty": 78,
+      "due": "2026-10-08"
+    },
+    {
+      "visualId": "77289",
+      "nickname": "RESTITCH EMB/ AIR ALL/ 3 PC ",
+      "depts": [
+        "EMB"
+      ],
+      "qty": 3,
+      "due": "2026-10-08"
+    },
+    {
+      "visualId": "77271",
+      "nickname": "REPRINT - B374320 St. Victoria Faith Formation - Batched 09/19/2026 DTF-LC/FB/LS-EDGE-75166",
+      "depts": [
+        "DTF"
+      ],
+      "qty": 1,
+      "due": "2026-10-06"
+    },
+    {
+      "visualId": "77264",
+      "nickname": "REPRINT - B373171 St. Victoria Faith Formation - Batched 09/18/2026 DTF-LC/FB/LS-IGNITE-75166 -  (1 of 3)",
+      "depts": [
+        "DTF"
+      ],
+      "qty": 1,
+      "due": "2026-10-06"
+    },
+    {
+      "visualId": "77253",
+      "nickname": "REPRINT DTF - MILES GARAGE HOODIES & TEES - QTY 13 (1 OF 1 )",
+      "depts": [
+        "DTF"
+      ],
+      "qty": 13,
+      "due": "2026-10-07"
+    },
+    {
+      "visualId": "77249",
+      "nickname": "REPRINT RUSH SP - North Point Gear -QTY 34 ",
+      "depts": [
+        "SP"
+      ],
+      "qty": 34,
+      "due": "2026-10-07"
+    },
+    {
+      "visualId": "77227",
+      "nickname": "RUSH REPRINT - DTF - HARVEST RIDGE STUCO - QTY 1",
+      "depts": [
+        "DTF"
+      ],
+      "qty": 1,
+      "due": "2026-10-06"
+    },
+    {
+      "visualId": "77195",
+      "nickname": "REPRINT DTF - Dance Factory Zebra Star - 3pc",
+      "depts": [
+        "DTF"
+      ],
+      "qty": 3,
+      "due": "2026-10-05"
+    },
+    {
+      "visualId": "77191",
+      "nickname": "REPRINT//DTF - UNITED KICKBALL LEAGUE -  QTY 2",
+      "depts": [
+        "DTF"
+      ],
+      "qty": 2,
+      "due": "2026-10-12"
+    },
+    {
+      "visualId": "77185",
+      "nickname": "RUSH REPRINT DTF  - RALLY FOR A REASON QTY 4",
+      "depts": [
+        "DTF"
+      ],
+      "qty": 4,
+      "due": "2026-10-05"
+    },
+    {
+      "visualId": "77120",
+      "nickname": "RESTITCH - B299636 Transit Supervisors - Local 106 Apparel - Batched 09/28/2026 EMB - LC/LSLEEVE - COAT - NO UNION BUG - 48563 -  (1 of 1)",
+      "depts": [
+        "EMB"
+      ],
+      "qty": 1,
+      "due": "2026-10-02"
+    },
+    {
       "visualId": "77114",
       "nickname": "RUSH REPRINT SP - Independence Elem Fun Run 2026 - 22 PC",
       "depts": [
@@ -109,6 +263,33 @@
       "due": "2026-10-02"
     },
     {
+      "visualId": "77112",
+      "nickname": "REPRINT - B374480 JUNIOR EAGLES BASKETBALL - Batched 09/21/2026 DTF - FF/FB - REVERSIBLE SHIRT - 53441 - (2 of 3)",
+      "depts": [
+        "DTF"
+      ],
+      "qty": 2,
+      "due": "2026-10-02"
+    },
+    {
+      "visualId": "77097",
+      "nickname": "REPRINT  - DTF - WESTHOFF  - 4183-5336-4663  - 1 PC",
+      "depts": [
+        "DTF"
+      ],
+      "qty": 1,
+      "due": "2026-10-05"
+    },
+    {
+      "visualId": "77060",
+      "nickname": "REPRINT - 567166 Berkeley Fire Department 2026 DTF - LC/FB -  NON UNION - BREAST CANCER - 66206 -  (2 of 16)",
+      "depts": [
+        "DTF"
+      ],
+      "qty": 2,
+      "due": "2026-10-05"
+    },
+    {
       "visualId": "77035",
       "nickname": "REPRINT - RUSH - 643461 Rally for a Reason Night DTF - FF - 76494 - (1 of 1)",
       "depts": [
@@ -116,6 +297,33 @@
       ],
       "qty": 2,
       "due": "2026-10-01"
+    },
+    {
+      "visualId": "77020",
+      "nickname": "RESTITCH//EMB - PO26090403 - Maintenance Hoodies - 1PC",
+      "depts": [
+        "EMB"
+      ],
+      "qty": 1,
+      "due": "2026-10-01"
+    },
+    {
+      "visualId": "77013",
+      "nickname": "REPRINT - EMB - HATS - FIRE 95 - 66712 - REPLACEMENT AARON",
+      "depts": [
+        "EMB"
+      ],
+      "qty": 1,
+      "due": "2026-10-05"
+    },
+    {
+      "visualId": "76882",
+      "nickname": "REPRINT-DTF - Total Softwash Long Sleeve Tees - 25 PCS",
+      "depts": [
+        "DTF"
+      ],
+      "qty": 25,
+      "due": "2026-10-05"
     },
     {
       "visualId": "76732",
