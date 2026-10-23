@@ -1,9 +1,9 @@
 {
-  "updated_at_ct": "2026-10-16 4:27 PM CT",
-  "counts_as_of_ct": "2026-10-16 4:27 PM CT",
-  "last_success_at_ct": "2026-10-16 4:46 PM CT",
+  "updated_at_ct": "2026-10-23 4:25 PM CT",
+  "counts_as_of_ct": "2026-10-23 4:25 PM CT",
+  "last_success_at_ct": "2026-10-23 4:47 PM CT",
   "counting_mode": "completed_orders_only",
-  "counting_note": "Completed only = Order Complete / Shipped / Ready for Pickup / Picked Up / Delivered (incl. red owes). Friday 2026-10-16 MTD recount.",
+  "counting_note": "Completed only = Order Complete / Shipped / Ready for Pickup / Picked Up / Delivered (incl. red owes). Friday 2026-10-23 MTD recount.",
   "freshness_status": "fresh",
   "rule": "Completed orders only. Remake = nickname REPRINT/RESTITCH/REDO or #reprint/#restitch/#redo only. EXISTING #### alone \u2260 remake. MISPRINTS originals \u2260 remake.",
   "metric": "piece_pct",
@@ -12,44 +12,44 @@
     "key": "2026-10",
     "label": "October 2026",
     "status": "mtd",
-    "garments_reprint": 842,
-    "garments_total": 28284,
-    "garment_ratio": 0.0298,
-    "piece_pct": 2.98,
-    "tickets_reprint": 57,
-    "tickets_total": 424,
-    "ticket_ratio": 0.1344,
-    "ticket_pct": 13.44,
+    "garments_reprint": 1081,
+    "garments_total": 47020,
+    "garment_ratio": 0.023,
+    "piece_pct": 2.3,
+    "tickets_reprint": 86,
+    "tickets_total": 648,
+    "ticket_ratio": 0.1327,
+    "ticket_pct": 13.27,
     "by_dept": {
       "SP": {
-        "garments_reprint": 702,
-        "garments_total": 21506,
-        "garment_ratio": 0.0326,
-        "piece_pct": 3.26,
-        "tickets_reprint": 17,
-        "tickets_total": 116,
-        "ticket_ratio": 0.1466,
-        "ticket_pct": 14.66
+        "garments_reprint": 897,
+        "garments_total": 37695,
+        "garment_ratio": 0.0238,
+        "piece_pct": 2.38,
+        "tickets_reprint": 29,
+        "tickets_total": 167,
+        "ticket_ratio": 0.1737,
+        "ticket_pct": 17.37
       },
       "DTF": {
-        "garments_reprint": 88,
-        "garments_total": 4622,
-        "garment_ratio": 0.019,
-        "piece_pct": 1.9,
-        "tickets_reprint": 29,
-        "tickets_total": 208,
-        "ticket_ratio": 0.1394,
-        "ticket_pct": 13.94
+        "garments_reprint": 124,
+        "garments_total": 6078,
+        "garment_ratio": 0.0204,
+        "piece_pct": 2.04,
+        "tickets_reprint": 38,
+        "tickets_total": 295,
+        "ticket_ratio": 0.1288,
+        "ticket_pct": 12.88
       },
       "EMB": {
-        "garments_reprint": 53,
-        "garments_total": 3033,
-        "garment_ratio": 0.0175,
-        "piece_pct": 1.75,
-        "tickets_reprint": 12,
-        "tickets_total": 112,
-        "ticket_ratio": 0.1071,
-        "ticket_pct": 10.71
+        "garments_reprint": 64,
+        "garments_total": 4379,
+        "garment_ratio": 0.0146,
+        "piece_pct": 1.46,
+        "tickets_reprint": 22,
+        "tickets_total": 200,
+        "ticket_ratio": 0.11,
+        "ticket_pct": 11.0
       }
     }
   },
@@ -100,6 +100,205 @@
   },
   "tickets": [
     {
+      "visualId": "78095",
+      "nickname": "REPRINT  //GM WOMEN AGAINST BREAST CANCER ",
+      "depts": [],
+      "qty": 0,
+      "due": "2026-10-22"
+    },
+    {
+      "visualId": "78035",
+      "nickname": "RESTITCH//EMB - LTL ENTERPRISES HATS - QTY 1 ",
+      "depts": [
+        "EMB"
+      ],
+      "qty": 1,
+      "due": "2026-10-23"
+    },
+    {
+      "visualId": "78034",
+      "nickname": "REPRINT//DTF -  Central Elementary Student Council Tees - QTY 1",
+      "depts": [
+        "DTF"
+      ],
+      "qty": 1,
+      "due": "2026-10-23"
+    },
+    {
+      "visualId": "78024",
+      "nickname": "REPRINT RUSH EMB - SANSONE GROUP LOGO - 2 PIECES",
+      "depts": [
+        "EMB"
+      ],
+      "qty": 2,
+      "due": "2026-10-23"
+    },
+    {
+      "visualId": "78004",
+      "nickname": "REPRINT//DTF - PO WEROCK1869 - We Rock the Spectrum - 1PC",
+      "depts": [
+        "DTF"
+      ],
+      "qty": 1,
+      "due": "2026-10-22"
+    },
+    {
+      "visualId": "77991",
+      "nickname": "REPRINT//DTF - PROTECT FLORIDA WILDLANDS - 2 PCS",
+      "depts": [
+        "DTF"
+      ],
+      "qty": 2,
+      "due": "2026-10-22"
+    },
+    {
+      "visualId": "77943",
+      "nickname": "RESTITCH - 644422 St. Charles County Ambulance District  SCRN/EMB  - LC/RS/FB - NON UNION - 58253 - (6 of 8)",
+      "depts": [
+        "SP",
+        "EMB"
+      ],
+      "qty": 1,
+      "due": "2026-10-22"
+    },
+    {
+      "visualId": "77910",
+      "nickname": "RUSH REPRINT DTF - HOODIES & TEES - QTY 19",
+      "depts": [
+        "DTF"
+      ],
+      "qty": 19,
+      "due": "2026-10-22"
+    },
+    {
+      "visualId": "77907",
+      "nickname": "REPRINT//SP - Ford Asphalt Safety Tees, LS & Hoodies - 7pc",
+      "depts": [
+        "SP"
+      ],
+      "qty": 7,
+      "due": "2026-10-21"
+    },
+    {
+      "visualId": "77896",
+      "nickname": "REPRINT//RUSH - SP - VOTERS NOT POLITICIANS - 2 PCS",
+      "depts": [
+        "SP"
+      ],
+      "qty": 2,
+      "due": "2026-10-21"
+    },
+    {
+      "visualId": "77892",
+      "nickname": "RUSH RESTITCH//EMB - MC FREIGHT SEPT 2026 - QTY 1 ",
+      "depts": [
+        "EMB"
+      ],
+      "qty": 1,
+      "due": "2026-10-22"
+    },
+    {
+      "visualId": "77881",
+      "nickname": "REPRINT//DTF - VCA Yearbook Staff Tees - 1 PCS",
+      "depts": [
+        "DTF"
+      ],
+      "qty": 1,
+      "due": "2026-10-20"
+    },
+    {
+      "visualId": "77878",
+      "nickname": "RESTITCH//EMB - MIG Construction Beanies - 1 PCS",
+      "depts": [
+        "EMB"
+      ],
+      "qty": 1,
+      "due": "2026-10-20"
+    },
+    {
+      "visualId": "77870",
+      "nickname": "REPRINT - EMB - CCFR STATION 4 CAMO HAT - Clay Lively - 1pc",
+      "depts": [
+        "EMB"
+      ],
+      "qty": 1,
+      "due": "2026-10-23"
+    },
+    {
+      "visualId": "77865",
+      "nickname": "644422 St. Charles County Ambulance District  SCRN/EMB  - LC/RS/FB - WHITE - NON UNION - 58254 - (7 of 8)",
+      "depts": [
+        "SP",
+        "EMB"
+      ],
+      "qty": 1,
+      "due": "2026-10-20"
+    },
+    {
+      "visualId": "77853",
+      "nickname": "REPRINT//SCRN - DMS ORCHESTRA TIE DYE SHIRTS - 1 PCS",
+      "depts": [
+        "SP"
+      ],
+      "qty": 1,
+      "due": "2026-10-20"
+    },
+    {
+      "visualId": "77852",
+      "nickname": "REPRINT - DTF - LC/FB - NON UNION - BREAST CANCER - 66206 - REPLACEMENT Katie - 1pc",
+      "depts": [
+        "DTF"
+      ],
+      "qty": 1,
+      "due": "2026-10-20"
+    },
+    {
+      "visualId": "77839",
+      "nickname": "REPRINT//SP / AAG STAFF SHIRTS / 1 PCS 4OF5",
+      "depts": [
+        "SP"
+      ],
+      "qty": 1,
+      "due": "2026-10-20"
+    },
+    {
+      "visualId": "77829",
+      "nickname": "RESTITCH//EMB - MC FREIGHT SEPT 2026 - QTY 1 (1 OF 2)",
+      "depts": [
+        "EMB"
+      ],
+      "qty": 1,
+      "due": "2026-10-19"
+    },
+    {
+      "visualId": "77818",
+      "nickname": "REPRINT// DTF/SP - FHN FBLA Where Leaders Begin 1pc ",
+      "depts": [
+        "SP",
+        "DTF"
+      ],
+      "qty": 1,
+      "due": "2026-10-19"
+    },
+    {
+      "visualId": "77801",
+      "nickname": "REPRINT SP - Reando's Rally tees - 3pc",
+      "depts": [
+        "SP"
+      ],
+      "qty": 3,
+      "due": "2026-10-20"
+    },
+    {
+      "visualId": "77797",
+      "nickname": "REPRINT-EMB - PO 9936 CARPENTERS LU 171 - 1 PC",
+      "depts": [
+        "EMB"
+      ],
+      "qty": 1,
+      "due": "2026-10-22"
+    },
+    {
       "visualId": "77754",
       "nickname": "REPRINT- SP- Rec Plex Sharks 26-27 -1 pcs",
       "depts": [
@@ -118,6 +317,15 @@
       "due": "2026-10-19"
     },
     {
+      "visualId": "77692",
+      "nickname": "REPRINT//DTF - 7 MILLION VEHICLES - 9PCS",
+      "depts": [
+        "DTF"
+      ],
+      "qty": 9,
+      "due": "2026-10-14"
+    },
+    {
       "visualId": "77670",
       "nickname": "REPRINT-DTF - Veritas Cartoon Eagles Long Sleeve - 2 PCS",
       "depts": [
@@ -129,6 +337,15 @@
     {
       "visualId": "77644",
       "nickname": "REPRINT//DTF - ST PETERS RECRUITING - 1pc",
+      "depts": [
+        "DTF"
+      ],
+      "qty": 1,
+      "due": "2026-10-14"
+    },
+    {
+      "visualId": "77603",
+      "nickname": "REPRINT - B386652 Pattonville Community Outreach store - Batched 10/05/2026 DTF-LC/FB- WHITE - PINK TOPS - 71071 -  (1 of 2)",
       "depts": [
         "DTF"
       ],
@@ -152,6 +369,15 @@
       ],
       "qty": 2,
       "due": "2026-10-13"
+    },
+    {
+      "visualId": "77575",
+      "nickname": "REPRINT-RUSH-SP- MISSOURI WORKERS CENTER -1 PC",
+      "depts": [
+        "SP"
+      ],
+      "qty": 1,
+      "due": "2026-10-14"
     },
     {
       "visualId": "77567",
@@ -190,6 +416,15 @@
       "due": "2026-10-15"
     },
     {
+      "visualId": "77501",
+      "nickname": "REPRINT-636233 ROARK CLASSIC TOURNAMENT 2026 SCRN - LC/FB - 76118",
+      "depts": [
+        "SP"
+      ],
+      "qty": 22,
+      "due": "2026-10-16"
+    },
+    {
       "visualId": "77500",
       "nickname": "REPRINT //DTF HAPPY HOLINDAISE TS AND CREWS ",
       "depts": [
@@ -224,241 +459,6 @@
       ],
       "qty": 1,
       "due": "2026-10-13"
-    },
-    {
-      "visualId": "77471",
-      "nickname": "RESTITCH //EMB - NORTH COUNTY TRAINING INS 1/4 ZIPS JOBSHIRT - QTY 31 (3 OF 5)",
-      "depts": [
-        "EMB"
-      ],
-      "qty": 1,
-      "due": "2026-10-12"
-    },
-    {
-      "visualId": "77458",
-      "nickname": "REPRINT //SCRN - SENIOR NIGHT SHIRTS - QTY 61",
-      "depts": [
-        "SP"
-      ],
-      "qty": 1,
-      "due": "2026-10-13"
-    },
-    {
-      "visualId": "77457",
-      "nickname": "REPRINT-SP - Wentzville Body Shop Tees - 1 PC",
-      "depts": [
-        "SP"
-      ],
-      "qty": 1,
-      "due": "2026-10-12"
-    },
-    {
-      "visualId": "77456",
-      "nickname": "RESTITCH  - 566196 WEST OVERLAND - NEW STORE 2026 EMB - HAT - WHITE WO -  (10 of 18)",
-      "depts": [
-        "EMB"
-      ],
-      "qty": 1,
-      "due": "2026-10-09"
-    },
-    {
-      "visualId": "77454",
-      "nickname": "RESTITCH - 566196 WEST OVERLAND - NEW STORE 2026 EMB - HATS - VEGAS WO -  (8 of 18)",
-      "depts": [
-        "EMB"
-      ],
-      "qty": 1,
-      "due": "2026-10-09"
-    },
-    {
-      "visualId": "77453",
-      "nickname": "RESTITCH - 566196 WEST OVERLAND - NEW STORE 2026 EMB -  LC/RC/RS - WO - VEGAS - UNION -  (15 of 18)",
-      "depts": [
-        "EMB"
-      ],
-      "qty": 1,
-      "due": "2026-10-09"
-    },
-    {
-      "visualId": "77424",
-      "nickname": "REPRINT //SP - Alum Rock Educators - 7pc",
-      "depts": [
-        "SP"
-      ],
-      "qty": 7,
-      "due": "2026-10-09"
-    },
-    {
-      "visualId": "77419",
-      "nickname": "RUSH REPRINT -DTF - OPERA/ PIT HAPPENS - QTY 1",
-      "depts": [
-        "DTF"
-      ],
-      "qty": 1,
-      "due": "2026-10-15"
-    },
-    {
-      "visualId": "77411",
-      "nickname": "REPRINT//RUSH-SP - Veritas Collegiate V Eagles Teal Tees - 1 PCS",
-      "depts": [
-        "SP"
-      ],
-      "qty": 1,
-      "due": "2026-10-08"
-    },
-    {
-      "visualId": "77394",
-      "nickname": "REPRINT-DTF - BLACK JACK FIRE STORE - UNION NAVY GARMENTS - 37190 REPLACEMENT BRYAN  NELSON",
-      "depts": [
-        "DTF"
-      ],
-      "qty": 1,
-      "due": "2026-10-08"
-    },
-    {
-      "visualId": "77380",
-      "nickname": "REPRINT - DTF - LC/FB - NON UNION - BREAST CANCER - 66206 - REPLACEMENT Katie",
-      "depts": [
-        "DTF"
-      ],
-      "qty": 1,
-      "due": "2026-10-09"
-    },
-    {
-      "visualId": "77369",
-      "nickname": "REPRINT //SP - Auto Vitality - 26pc2OF2",
-      "depts": [
-        "SP"
-      ],
-      "qty": 6,
-      "due": "2026-10-09"
-    },
-    {
-      "visualId": "77367",
-      "nickname": "REPRINT - RUSH - 601289 Francis Howell Middle School Music 2026 SCRN -FHHS MUSIC DEPARTMENT 28776 -  (1 of 1)",
-      "depts": [
-        "SP"
-      ],
-      "qty": 5,
-      "due": "2026-10-08"
-    },
-    {
-      "visualId": "77352",
-      "nickname": "REPRINT - B374480 JUNIOR EAGLES BASKETBALL - Batched 09/21/2026 DTF -FF -  REVERSIBLE PRACTICE SHIRT -  44892 - (3 of 3)",
-      "depts": [
-        "DTF"
-      ],
-      "qty": 1,
-      "due": "2026-10-07"
-    },
-    {
-      "visualId": "77344",
-      "nickname": "REPRINT- SP- Rec Plex Sharks 26-27 -1 pcs",
-      "depts": [
-        "SP",
-        "DTF"
-      ],
-      "qty": 1,
-      "due": "2026-10-08"
-    },
-    {
-      "visualId": "77339",
-      "nickname": "RESTITCH //EMB HATS  FOREST GREEN - QTY 35 EA",
-      "depts": [
-        "EMB"
-      ],
-      "qty": 35,
-      "due": "2026-10-08"
-    },
-    {
-      "visualId": "77305",
-      "nickname": "REPRINT SP - FZW NHS - 78pc",
-      "depts": [
-        "SP"
-      ],
-      "qty": 78,
-      "due": "2026-10-08"
-    },
-    {
-      "visualId": "77300",
-      "nickname": "REPRINT - DTF - STR ORDER 4160-7544-1737 - McKelvey PTO Spirit Wear 2026 - REPLACEMENT Vidhi Patel - 3 PC",
-      "depts": [
-        "DTF"
-      ],
-      "qty": 3,
-      "due": "2026-10-13"
-    },
-    {
-      "visualId": "77292",
-      "nickname": "REPRINT - DTF - STR ORDER 4151-0773-6718 - McKelvey PTO Spirit Wear 2026 - REPLACEMENT Johnathan Vardeman - 1 PC",
-      "depts": [
-        "DTF"
-      ],
-      "qty": 1,
-      "due": "2026-10-13"
-    },
-    {
-      "visualId": "77289",
-      "nickname": "RESTITCH EMB/ AIR ALL/ 3 PC ",
-      "depts": [
-        "EMB"
-      ],
-      "qty": 3,
-      "due": "2026-10-08"
-    },
-    {
-      "visualId": "77287",
-      "nickname": "REPRINT - DTF - STR ORDER 4168-7663-9595 - Class of 2027 Senior Parents - REPLACEMENT Katie Bange - 1 PC",
-      "depts": [
-        "DTF"
-      ],
-      "qty": 1,
-      "due": "2026-10-13"
-    },
-    {
-      "visualId": "77271",
-      "nickname": "REPRINT - B374320 St. Victoria Faith Formation - Batched 09/19/2026 DTF-LC/FB/LS-EDGE-75166",
-      "depts": [
-        "DTF"
-      ],
-      "qty": 1,
-      "due": "2026-10-06"
-    },
-    {
-      "visualId": "77264",
-      "nickname": "REPRINT - B373171 St. Victoria Faith Formation - Batched 09/18/2026 DTF-LC/FB/LS-IGNITE-75166 -  (1 of 3)",
-      "depts": [
-        "DTF"
-      ],
-      "qty": 1,
-      "due": "2026-10-06"
-    },
-    {
-      "visualId": "77253",
-      "nickname": "REPRINT DTF - MILES GARAGE HOODIES & TEES - QTY 13 (1 OF 1 )",
-      "depts": [
-        "DTF"
-      ],
-      "qty": 13,
-      "due": "2026-10-07"
-    },
-    {
-      "visualId": "77249",
-      "nickname": "REPRINT RUSH SP - North Point Gear -QTY 34 ",
-      "depts": [
-        "SP"
-      ],
-      "qty": 34,
-      "due": "2026-10-07"
-    },
-    {
-      "visualId": "77227",
-      "nickname": "RUSH REPRINT - DTF - HARVEST RIDGE STUCO - QTY 1",
-      "depts": [
-        "DTF"
-      ],
-      "qty": 1,
-      "due": "2026-10-06"
     }
   ]
 }
